@@ -1,0 +1,3 @@
+#!/bin/bash
+
+~/sentinel/venv/bin/python ~/sentinel/bin/sentinel.py 2>&1 | awk '{ print strftime("%Y-%m-%d %H:%M:%S: "), $0; fflush(); }' >> ~/sentinel/sentinel-cron.log
