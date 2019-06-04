@@ -1,7 +1,7 @@
 base:
   'mn*':
     - network
-    - sycoind:
+    - syscoind:
       - user
       - basic
       - systemd
