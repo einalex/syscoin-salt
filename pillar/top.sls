@@ -1,7 +1,6 @@
 base:
-  '*':
-     syscoin:
-       rpcuser: 
-       rpcpass: 
+  syscoin:
+     rpcuser: 
+     rpcpass: 
   'mn1':
      - mn1
