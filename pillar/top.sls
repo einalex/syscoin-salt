@@ -1,6 +1,5 @@
 base:
-  syscoin-global:
-     rpcuser: 
-     rpcpass: 
+  '*':
+     - syscoin
   'mn1':
      - mn1

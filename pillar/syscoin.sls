@@ -1,0 +1,3 @@
+syscoin:
+   rpcuser: 
+   rpcpass: 
