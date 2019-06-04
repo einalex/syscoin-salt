@@ -1,5 +1,5 @@
 base:
-  syscoin:
+  syscoin-global:
      rpcuser: 
      rpcpass: 
   'mn1':
