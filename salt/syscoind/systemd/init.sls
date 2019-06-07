@@ -13,6 +13,9 @@ syscoind:
   service.running:
       - enable: True
       - reload: True
+      - watch:
+        - file: /etc/syscoin/syscoin.conf
+        - file: /usr/local/bin/syscoind
       - require:
         - user: syscoin
         - sls: syscoind
