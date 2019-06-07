@@ -16,7 +16,7 @@ https://github.com/syscoin/sentinel.git:
       - user: syscoin
       - pkg: git
 
-/var/lib/syscoin/sentinel:
+/var/lib/syscoin/sentinel/venv:
   virtualenv.managed:
     - requirements: /var/lib/syscoin/sentinel/requirements.txt
     - user: syscoin
@@ -33,7 +33,7 @@ https://github.com/syscoin/sentinel.git:
     - template: jinja
     - mode: 640
     - require:
-      - virtualenv: /var/lib/syscoin/sentinel
+      - virtualenv: /var/lib/syscoin/sentinel/venv
       - user: syscoin
 
 
